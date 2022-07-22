@@ -1,7 +1,7 @@
-This repository is archived and will not receive any updates
+This is a fork of `os/slacker <https://github.com/os/slacker>`_
 ############################################################
 
-It's time to say goodbye. I'm archiving Slacker. It's been getting harder to find time to maintain this project for a while now. For years it's been the most popular Python library for Slack. Eventually Slack decided to go with `their library <https://github.com/slackapi/python-slackclient>`_, and I lost my motivation to maintain it. Thank you all for your contributions to this project.
+It's only purpose is to allow `slack-export <https://github.com/jonpas/slack-export>`_ to function to a usable degree.
 
 =======
 Slacker
