@@ -66,7 +66,7 @@ class BaseAPI(object):
 
     def _request(self, request_method, method, **kwargs):
         if self.token:
-            kwargs.setdefault('params', {})['token'] = self.token
+            kwargs.setdefault('headers', {})['Authorization'] = f'Bearer {self.token}'
 
         url = get_api_url(method)
 
